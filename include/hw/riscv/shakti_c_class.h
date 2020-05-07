@@ -55,7 +55,7 @@ typedef struct ShaktiCclassState {
     MachineState parent_obj;
 
     /*< public >*/
-    ShaktiCclassSoCState soc;
+    ShaktiCclassSocState soc;
 
     void *fdt;
     int fdt_size;

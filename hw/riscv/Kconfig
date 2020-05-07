@@ -21,6 +21,13 @@ config SIFIVE_U
     select SIFIVE
     select UNIMP
 
+config SHAKTI_C_CLASS
+    bool
+    select CADENCE
+    select HART
+    select SIFIVE
+    select UNIMP
+
 config SPIKE
     bool
     select HART
